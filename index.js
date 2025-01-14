@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.send("hiii")
+    res.send("hiii this is the backend for weather app")
 })
 
 app.use('/signup',require("./authorization/signup"))
